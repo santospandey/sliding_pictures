@@ -1,0 +1,55 @@
+.slider_wrapper{
+	width: 750px;
+	position: relative;
+	margin:auto;
+	margin-top: 100px;
+}
+
+.slider {
+	width:700px;
+	overflow: hidden;
+	border: 1px solid red;
+	margin: 0px auto;	
+	position: relative;
+}
+
+.slider .sliderLong {
+	width: 10000px;
+	border: 1px solid blue;
+	margin: auto;	
+}
+
+.slider img {
+	width:700px;
+	height:300px;
+}
+
+
+.slider_wrapper .left-button{	
+	width: 20px;
+	height: 20px;
+	border: 1px solid green;
+	background-color: red;
+	position: absolute;
+	top: 140px;
+	left: 4px;
+}
+
+
+.slider_wrapper .right_button{
+	width: 20px;
+	height: 20px;
+	border: 1px solid green;
+	background-color: red;	
+	position: absolute;	
+	top:140px;
+	left: 726px;		
+}
+
+#navigation_div{
+	height: 30px;
+	width: 400px;
+	position: absolute;
+	top:350px;
+	left: 500px;	
+}
